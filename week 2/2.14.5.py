@@ -1,0 +1,6 @@
+end_amount = int(input("What is your end amount of money? "))
+initial_amount = int(input("What was your initial investment? "))
+times_per_year_interest = int(input("How often was interest paid per year? "))
+years = int(input("For how many years has the money been invested? "))
+interest_r = (((((end_amount/initial_amount * (1/(times_per_year_interest * years))) * times_per_year_interest) - 1) * 100) // 1)
+print("The yearly interest was",str(interest_r) + "%")
