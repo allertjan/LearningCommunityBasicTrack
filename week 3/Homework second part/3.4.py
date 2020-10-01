@@ -7,9 +7,10 @@ for number in numbers:
     print(number, "The Square of the number is ", number ** 2)
 
 for total_number in numbers:
-    total = sum(numbers)
+    total += total_number
 
 print(total)
 
+print(sum(numbers))
 product_numbers = math.prod(numbers)
 print(product_numbers)

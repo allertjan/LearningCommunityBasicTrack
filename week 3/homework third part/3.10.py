@@ -10,4 +10,3 @@ for (angle, steps) in coordinates:
     alex.forward(steps)
 
 paper.exitonclick()
-
