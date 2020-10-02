@@ -14,18 +14,21 @@ def make_window(color):
     return window
 
 
-def draw_polygon(animal, corners, size):
-    for _ in range(corners):
-        animal.forward(size)
-        animal.left(360 / corners)
-
-
-def draw_triangle(animal, size):
-    draw_polygon(animal, 3, size)
+def make_star(animal):
+    for _ in range(5):
+        animal.forward(100)
+        animal.right(144)
 
 
 wn = make_window("limegreen")
 alex = make_turtle("hotpink", 5)
-draw_triangle(alex, 90)
+
+for _ in range(5):
+    make_star(alex)
+    alex.penup()
+    alex.forward(350)
+    alex.right(144)
+    alex.pendown()
+
 
 wn.exitonclick()
