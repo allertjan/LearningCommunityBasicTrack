@@ -24,7 +24,7 @@ def end_calc_time(specific_dictionary, travel_distance, speed):
         print(time_calculation(travel_distance, speed, extra_time)["y"])
         transportation_dictionary[specific_dictionary][travel_distance] = time_calculation(travel_distance, speed,
                                                                                            extra_time)["x"]
-
+# It still does not save it to the dictionary in the document however when using the debugger it does?
 
 def request_run_again():
     global value
