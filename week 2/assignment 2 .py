@@ -16,7 +16,7 @@ car_dictionary = {
     160: 120,
 }
 print("The transportation mode options are: Car,Bike and Walking. You can also add other type of transportation modes"
-      "by typing \"add\"")
+      " by typing \"add\"")
 transportation = str.lower(input("Which transportation mode will you be using?"))
 if transportation == "add":
     speed_new_transportation_mode = int(input("What is the speed of the new transportation mode? Speed:"))
