@@ -6,14 +6,19 @@ leet_speak = {
     "r": "7",
 }
 
-
 def replace_dictionary(oldfile, newfile, dictionary):
     with open(oldfile) as infile, open(newfile, "w") as outfile:
         text = infile.readlines()
+        final_line = ""
         for line in text:
-            for key in dictionary:
-                final_line = line.replace(key, dictionary[key])
-            outfile.write(final_line)
+            for letter in line:
+                if letter in leet_speak:
+                    for key in dictionary:
+                        final_letter = letter.replace(key, dictionary[key])
+                        final_line += final_letter
+                else:
+                    final_line += letter
+                outfile.write(final_line)
 
 
 replace_dictionary("old", "new_ex_6.5", leet_speak)

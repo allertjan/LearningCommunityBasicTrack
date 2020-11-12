@@ -8,4 +8,4 @@ def reverse_files(oldfile, newfile):
 
 reverse_files("old", "new_ex_6.1")
 
-# Why does this function return the first two list elements without an enter?
+

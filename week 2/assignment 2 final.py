@@ -86,7 +86,7 @@ while True:
                 continue
             else:
                 exit()
-        elif transportation == "walking":
+        else:
             end_calc_time("walking_dictionary", distance, 5)
             request_run_again()
             if value == "yes":

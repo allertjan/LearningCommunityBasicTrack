@@ -1,0 +1,12 @@
+To start the program the user needs the files: "assignment final", "CSV_history" and the "info_about_debtors".
+In order to run the whole program the user needs to run the "assignment final" file.
+This file will ask for the company name. If the address of the company name is known then it will get the info from
+"info_about_debtors" file. Else the user will asked to fill in the information. This information will be added to the
+"info_about_debtors" file. The user will then be asked to fill in various info about the products.
+With this information final numbers will be calculated. After that, the invoice number will be calculated by getting last
+invoice number from the "CSV_history" file. Then the program has all the info it needs in order to add info to the
+CSV and make an invoice. The name of the invoice will always be the company's name plus the invoice number.
+
+
+I would like to continue with the advanced track of the Learning Community. Thank you for all the enjoyable classes.
+Allert Jan Dillema S3978036
