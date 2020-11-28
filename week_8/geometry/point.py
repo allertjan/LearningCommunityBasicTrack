@@ -1,7 +1,5 @@
 class point:
-    """
-    Point class represents and manipulates x and y coordinates.
-    """
+    """    Point class represents and manipulates x and y coordinates.    """
     def __init__(self, x=0, y=0):
         """ Create a new point at the origin """
         self.x = x
